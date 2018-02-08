@@ -27,7 +27,7 @@ gulp.task('lint', function () {
 gulp.task('sass', function () {
   gulp.src('sass/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('build/css/clock.css'));
+    .pipe(gulp.dest('build/css/'));
 });
 
 // 合并，压缩文件
